@@ -1,0 +1,419 @@
+.device-info {
+  margin: 0.5rem 1rem;
+  border: 2px solid grey;
+  border-radius: 5px; 
+}
+.deviceReports {
+  margin-bottom: 2rem !important;
+}
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.device-filter{
+  margin: 0rem 1rem;
+}
+.custom-dropdown-toggle {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.custom-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 9.8rem;
+  z-index: 1;
+  padding: 0.5rem 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.custom-dropdown-menu.show {
+  display: block;
+}
+
+.custom-dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #212529;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.custom-dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+
+#__BVID__1705__BV_label_ {
+  font-size: large;
+}
+.device {
+  margin-top: 1rem;
+  padding: 0;
+}
+.years{
+  width: auto !important;
+}
+
+.custom-select {
+  width: 25% ;
+  padding-top: 0.2rem;
+  font-size: 100%;
+}
+.months {
+  width: 33% !important;
+}
+.form-control {
+  width: 100%;
+  height: 30px;
+  font-size: 17px;
+  margin-top: -0.5rem;
+}
+#__BVID__1705 {
+  width: 96%;
+}
+.input-filter {
+  width: 100% !important;
+}
+.form-lines {
+  width: fit-content !important;
+}
+
+.search-input {
+  margin-left: 1rem;
+  width: 100%;
+}
+.ms-n5 {
+  margin-left: -40px;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  height: 2rem;
+  width: 0%;
+}
+.cross-check {
+  position: absolute;
+  right: 1rem;
+}
+.date-Picker > img {
+  margin: 0px 0.5rem;
+}
+.search-bar {
+  width: 36% !important;
+}
+.device-form {
+  width: 100% !important;
+  margin: 0 1rem !important;
+  padding-left: 0rem;
+}
+.submit-btn {
+  margin-left: 2rem !important;
+}
+.header-report{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+}
+.csv-btn , .btn-csv {
+  position: absolute;
+  right: 1.5rem;
+  align-self: center;
+}
+.form-row {
+  margin-left: 0rem;
+  align-items: center;
+}
+.btn-submit {
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+}
+.form-row > h6 {
+  font-size: 1rem;
+}
+.footer-side{
+  width: 100%;
+  background-color: #0f400f;;
+  height: 5rem;
+  border: 2px solid black;
+  border: none;
+}
+.footer-item{
+  display: flex;
+  align-items: center;
+  margin-left: 44rem;
+}
+.footer-logo{
+  margin-top: 5px;
+}
+.logo-word{
+  padding-right: 1rem;
+  font-size: 1.7rem;
+  color: white;
+}
+.table-container{
+  width: 100%;
+}
+
+.chart-container {
+  width: 100%;
+}
+
+.p {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 140px;
+}
+.charts{
+  width: 100%;
+}
+/* Media queries */
+@media (min-width: 768px) and (max-width: 991px) {
+  .search-input {
+    width: 100%;
+  }
+  .chart-container {
+    width: 100%;
+    margin: 1rem 0rem;
+  }
+  .row-form {
+    margin: 0 5px;
+  }
+  .form-row {
+    width: 80%;
+    margin-left: 0rem;
+  }
+  .form-control {
+    height: 2.3rem;
+    font-size: 1rem;
+  }
+  .form-row > h6 {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1399px) {
+  .search-input {
+    width: 100%;
+  }
+  .custom-select {
+    width: auto !important;
+  }
+  .line,
+  .react-datepicker-wrapper,
+  .btn-submit {
+    margin-top: 0rem;
+  }
+  .form-row {
+    width: 100%;
+  }
+  .form-control {
+    width: 100% !important;
+  }
+  .device-form {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .table-container {
+    overflow-x: auto;
+    width: 100%; 
+  }
+  .table-container table {
+    width: 100%; 
+    max-width: 100%; 
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .chart-container {
+    width: 100%;
+    margin: 1rem 0rem;
+  }
+  .btn-csv {
+    top: 4rem;
+  }
+  .device-form {
+    width: 100% !important;
+    margin: 0 0rem !important;
+  }
+  .form-lines {
+    width: 100% !important ;
+    font-size: 2rem;
+  }
+  .btn-submit {
+    margin-top: 0.9rem;
+  }
+  .months {
+    width: 35% !important;
+  }
+  .search-input {
+    width: 95%;
+  }
+  .date-Picker,
+  .line,
+  .last-date-picker,
+  .labels,
+  .submit-btn {
+    margin-top: 1rem;
+  }
+  .cross-check {
+    right: 27rem;
+    top: 15px;
+    font-size: 2rem;
+  }
+  .labels {
+    font-size: 1.2rem;
+    margin: 0.5rem 0.2rem;
+  }
+  .custom-select {
+    width: 65% !important;
+  }
+  .months,
+  .years {
+    width: 20% !important;
+    margin-top: 1rem !important;
+    font-size: 1rem !important;
+  }
+  .box-input {
+    width: 70% !important;
+    font-size: 1rem !important;
+    height: 2rem;
+  }
+  .device {
+    margin-top: 1rem !important;
+  }
+  .form-row {
+    margin-top: 0rem;
+  }
+  .header-label{
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  .entries {
+    font-size: 1rem;
+    text-align-last : center;
+  }
+  .search-bar {
+    height: 2rem;
+  }
+  .row-form {
+    margin: 0 5px;
+  }
+  /* .deviceReports > h3 {
+    font-size: 5rem !important;
+    margin-top: 7rem !important;
+  } */
+  .toggler-icon {
+    background-size: 3rem;
+  }
+  .device-info table thead th,
+  .device-info table tbody td {
+    display: block;
+    width: 100%;
+  }
+  .device-info thead {
+    display: none;
+  }
+  .table-container td {
+    font-size: 1.5rem;
+  }
+  .form-row > h6 {
+    font-size: 1.2rem !important;
+  }
+  .input-filter > h6 {
+    margin-left: -0.5rem;
+  }
+  .filter-label {
+    font-size: 3rem !important;
+    margin-left: 0.5rem !important;
+  }
+  tr {
+    border: 2px solid black;
+    margin-top: 1rem 0rem;
+  }
+  .device-info table tbody td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+  .device-info table tbody td:last-child {
+    margin-bottom: 1rem;
+  }
+  .device-info table tbody td[data-label]::before {
+    text-align: left;
+    content: attr(data-label);
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: normal;
+    display: inline-block;
+    width: 50%;
+    font-size: 1rem;
+  }
+  .device-info table tbody td {
+    font-size: 1rem;
+  }
+
+  .connected {
+    background-color: #9dff9d;
+  }
+
+  .disconnected {
+    background-color: #ff9d9d;
+  }
+  .device table thead th {
+    display: none;
+  }
+
+  .device table tbody tr th::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .chart-container > .row{
+    padding: 0 !important;
+  }
+  .charts{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 250px !important;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .report-navbar {
+    height: 7rem;
+  }
+  .charts{
+    display: inline !important;
+    box-sizing: border-box;
+    padding: 0rem;
+    height: 300px !important;
+  }
+  .form-lines {
+    font-size: 2.5rem;
+  }
+  .months,
+  .years {
+    width: 30% !important;
+  }
+} 
+

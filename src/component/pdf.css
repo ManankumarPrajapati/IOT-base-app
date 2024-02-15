@@ -1,0 +1,22 @@
+.pdf-container{
+    margin: 5rem 0rem;
+    width: 100%;
+}
+.pdf-container table tbody td {
+    font-size: 1.2rem;
+  }
+.pdf-container table thead {
+    font-size: 1.5rem;
+  }
+.pdf-header{
+    margin-left: 2rem;
+}
+.pdf-table{
+    margin: 0 2rem;
+}
+.pdf{
+    height: 3rem;
+    width: 10rem;
+    margin: 3rem 5rem;
+    border: 2px solid red;
+}
